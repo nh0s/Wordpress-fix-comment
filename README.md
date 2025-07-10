@@ -1,58 +1,77 @@
-=== Anti Comment Impersonation ===
+# Anti Comment Impersonation
 
-Contributors: Michaël Russo (https://www.linkedin.com/in/michaelruss0/)
-Tags: comments, impersonation, security, spam, moderation  
-Requires at least: 5.0  
-Tested up to: 6.5  
-Requires PHP: 7.2  
-Stable tag: 1.0.0  
-License: GPLv2 or later  
-License URI: https://www.gnu.org/licenses/gpl-2.0.html  
+**Author:** [Michaël Russo](https://www.linkedin.com/in/michaelruss0/)  
+**Version:** 1.0.0  
+**License:** [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)  
+**Tags:** comments, impersonation, security, spam, moderation  
+**Requires WordPress Version:** 5.0+  
+**Tested up to:** 6.5  
+**Requires PHP Version:** 7.2+
 
-== Description ==
+---
 
-This plugin prevents unauthenticated users from impersonating registered WordPress users in the comment section.  
+## 🛡️ Description
 
-By default, WordPress allows anyone to leave a comment by entering a name and email address — which can be exploited to post comments under someone else's identity.  
+**Anti Comment Impersonation** is a lightweight WordPress plugin that prevents unauthenticated users from impersonating registered users in the comment section.
 
-With this plugin activated, if an unauthenticated user tries to comment using a name or email address that matches an existing user account, the comment will be blocked and the user will be prompted to log in.  
+By default, WordPress allows anyone to leave a comment by simply entering a name and email address — which can be exploited to post under someone else's identity.
 
-This helps preserve trust and identity integrity on your site and protects registered users from impersonation.
+This plugin blocks unauthenticated users from submitting a comment using a username or email address that matches an existing WordPress user account. Instead, they are prompted to log in to comment under that identity.
 
-= Features =
+### ✅ What it does:
+- Enhances trust and identity integrity
+- Prevents abuse through fake comments from impersonated users
+- Secures your community interactions
 
-* Blocks comment impersonation using existing usernames or email addresses
-* No configuration required — works out of the box
-* Lightweight and secure
-* Does not affect logged-in users
+---
 
-== Installation ==
+## 🚀 Features
 
-1. Upload the plugin folder to the `/wp-content/plugins/` directory, or install it directly from the Plugins screen in WordPress.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. No further configuration is needed — the protection is active immediately.
+- 🔒 Blocks impersonation attempts using registered usernames or emails
+- ⚙️ No configuration required — works out of the box
+- 🧩 Lightweight and efficient
+- 👥 Does not affect logged-in users
 
-== Frequently Asked Questions ==
+---
 
-= Will this plugin block all anonymous comments? =  
-No. Visitors can still comment anonymously using names and emails that do not belong to registered users.
+## 📦 Installation
 
-= Does it affect logged-in users? =  
-No. Authenticated users are not affected by this check.
+1. Upload the plugin folder to `/wp-content/plugins/anti-comment-impersonation`, or install it via the WordPress admin panel.
+2. Activate the plugin through the **Plugins** screen.
+3. That's it! The protection is now active.
 
-= Can I customize the error message? =  
-Not yet, but this feature may be added in a future version.
+---
 
-== Screenshots ==
+## ❓ FAQ
 
-1. The error message shown when impersonation is detected.
+### Will this plugin block all anonymous comments?
 
-== Changelog ==
+No. Visitors can still comment anonymously, as long as they don't use the name or email address of a registered user.
 
-= 1.0.0 =
-* Initial release.
+### Does it affect logged-in users?
 
-== Upgrade Notice ==
+No. Logged-in users are free to comment as usual.
 
-= 1.0.0 =
+### Can I customize the error message?
+
+Not yet, but this may be added in a future release.
+
+---
+
+## 🖼️ Screenshots
+
+1. Error message displayed when a guest user tries to impersonate an existing account.
+
+---
+
+## 📝 Changelog
+
+### 1.0.0
+- Initial release.
+
+---
+
+## 📢 Upgrade Notice
+
+### 1.0.0
 First stable release.
