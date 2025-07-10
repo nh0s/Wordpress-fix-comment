@@ -1,6 +1,7 @@
 === Anti Comment Impersonation ===
 
 Contributors: Michaël Russo (https://www.linkedin.com/in/michaelruss0/)
+
 Tags: comments, impersonation, security, spam, moderation  
 Requires at least: 5.0  
 Tested up to: 6.5  
