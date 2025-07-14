@@ -28,7 +28,7 @@ function aci_prevent_impersonation_on_comment($commentdata) {
         if ($user_by_name || $user_by_email) {
             wp_die(
                 __('An account exists with this name or email address. Please log in to comment.', 'Fix-0day-Comment'),
-                __('Validation error', 'anti-comment-impersonation'),
+                __('Validation error', 'Fix-0day-Comment'),
                 array('response' => 403)
             );
         }
