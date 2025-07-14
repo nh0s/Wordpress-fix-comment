@@ -36,7 +36,7 @@ This plugin blocks unauthenticated users from submitting a comment using a usern
 
 ## 📦 Installation
 
-1. Upload the plugin folder to `/wp-content/plugins/anti-comment-impersonation`, or install it via the WordPress admin panel.
+1. Upload the plugin folder to `/wp-content/plugins/Fix-0day-Comment`, or install it via the WordPress admin panel.
 2. Activate the plugin through the **Plugins** screen.
 3. That's it! The protection is now active.
 
